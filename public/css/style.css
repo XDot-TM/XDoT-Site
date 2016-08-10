@@ -97,3 +97,23 @@ a.menu_toggler {
 
 
 /* ___________________ //Header ___________________ */
+
+
+
+/* _____________________ #middle _______________________ */
+
+#middle {
+    margin-top: 100px;
+
+}
+
+
+
+/* ____________________ //#middle ______________________ */
+
+.button {
+    background-color: #8bc34a;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+}

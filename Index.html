@@ -5,52 +5,55 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Xdot</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="public/css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="public/css/style.css">
     <link rel="shortcut icon" href="images/favicon.ico">
+
+    <script src="public/js/jQuery-1.12.1.js" type="text/javascript"></script>
+    <script src="public/js/common-functions.js" type="text/javascript"></script>
+    <script src="public/js/main.js" type="text/javascript"></script>
 </head>
 
 <body>
-    <div id="page">
-        <div id="fb-root"></div>
-        <section id="top">
-            <header>
-                <div class="container">
-                    <div id="logo" class="fleft"><a href="index.html" alt="">Claudiu Speed Travel  </a></div>
-                    <nav class="fright navmenu">
-                        <ul>
-                            <li class="active first"><a href="#home">Acasa</a></li>
-                            <li><a href="#about">Despre</a></li>
-                            <li><a href="#portfolio">Transport</a></li>
-                            <!--<li><a href="#blog">Blog</a></li>-->
-                            <li class="last"><a href="#contact">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <!-- end nav -->
-                </div>
-            </header>
-        </section>
-        <!-- //header section -->
+    <noscript>
+        <p style="margin: 0 auto; text-align: center; background-color: #CF6161; padding: 15px; border: 2px solid #9e1f1f; border-radius: 7px;">
+            Your web browser must have JavaScript <b>enabled</b> in order for this application to work correctly.
+        </p>
+    </noscript>
 
-        <div>
+    <div id="fb-root"></div>
+    <section id="top">
+        <header>
+            <div class="container">
+                <div id="logo" class="fleft"><a href="index.html" alt="">Claudiu Speed Travel  </a></div>
+                <nav class="fright navmenu">
+                    <ul>
+                        <li class="active first"><a href="#home" id="home-button">Acasa</a></li>
+                        <li><a href="#about" id="about-button">Despre</a></li>
+                        <li><a href="#portfolio" id="transport-button">Transport</a></li>
+                        <!--<li><a href="#blog">Blog</a></li>-->
+                        <li class="last"><a href="#contact" id="contact-button">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- end nav -->
+            </div>
+        </header>
+    </section>
 
+
+    <section id="middle">
+        <div id="content">
+            <!-- Here will be loaded content specific to each page -->
         </div>
+    </section>
 
-        <div>
 
-        </div>
-
-        <div>
-
-        </div>
-
-        <div>
-
-        </div>
-
+    <section id="bottom">
+        <footer> This is the footer </footer>
+    </section>
 
 </body>
-<footer> </footer>
 
 </html>
