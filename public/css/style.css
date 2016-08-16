@@ -301,6 +301,7 @@ a.menu_toggler {
 /* ___________________ //Header ___________________ */
 
 
+<<<<<<< HEAD:style.css
 /* ____________________ Home ____________________ */
 
 #home {
@@ -483,3 +484,23 @@ a.down_btn {
 #footer .social-icons ul li a.tumblr:hover {
     background-color: #ff6b00;
 }
+=======
+
+/* _____________________ #middle _______________________ */
+
+#middle {
+    margin-top: 100px;
+
+}
+
+
+
+/* ____________________ //#middle ______________________ */
+
+.button {
+    background-color: #8bc34a;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+>>>>>>> origin/master:public/css/style.css
