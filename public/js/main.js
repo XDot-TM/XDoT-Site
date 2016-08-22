@@ -2,23 +2,20 @@
 
     $(document).ready(function() {
 
-        enableNavMenu();
+        translatePage();
 
-        loadPage("landing-page");
+        $('body').click(function(e) {
+            hideLanguagesIfClickedOutside(e);
+        });
 
     });
 
-
-    var enableNavMenu = function() {
-        $('#home-button').click(function() {
-            loadPage("landing-page");
-        });
-        $('#about-button').click(function() {
-            loadPage("about-page");
-        });
-        $('#contact-button').click(function() {
-            loadPage("contact-page");
-        });
-    }
-
 })(this);
+
+
+function hideLanguagesIfClickedOutside(e) {
+    if ($("#language-select").has(e.target).length === 0) {
+        $("#all-languages").css('display', 'none');
+        $("#language-flag-gray-filter").css('display', 'none');
+    }
+}

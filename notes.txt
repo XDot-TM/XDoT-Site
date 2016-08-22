@@ -1,0 +1,6 @@
+
+1. Setting cookies on Chrome doesn't work locally
+
+2. Reading files on Chrome doesn't work locally (reading json files for languages)
+
+    For 1 and 2 you must run a WebServer locally (eg. Apache) and run the app in the web server

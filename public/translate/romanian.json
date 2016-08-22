@@ -1,0 +1,51 @@
+{
+    "header" : {
+        "Home" : "Acasa",
+        "About Us" : "Despre noi",
+        "Portofolio" : "Portofoliu",
+        "Contact" : "Contact"
+    },
+    "middle" : {
+        "services" : {
+            "Branding" : {
+                "title" : "roBranding",
+                "text" : ["[RO]Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>",
+                          "Morbi suscipit quis mi sit amet sollicitudin.</br>",
+                          "Proin consequat venenatis dolor, at tempor diam."]
+            },
+            "Webdesign" : {
+                "title" : "roWebdesign",
+                "text" : ["[RO] Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br>",
+                          "Morbi suscipit quis mi sit amet sollicitudin.</br>",
+                          "Proin consequat venenatis dolor, at tempor diam."]
+            },
+            "Marketing" : {
+                "title" : "roMarketing",
+                "text" : ["[RO]  Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br>",
+                          "Morbi suscipit quis mi sit amet sollicitudin.</br>",
+                          "Proin consequat venenatis dolor, at tempor diam."]
+            }
+        },
+        "team" : {
+            "title" : "Cine suntem noi?"
+        }
+    },
+    "footer" : {
+        "contact-info" : {
+            "title" : ["Ti-ar placea sa discutam?<br/>",
+                       "Contacteaza-ne."],
+            "text" : ["Daca ai un proiect in vedere sau vrei sa afli <br/>",
+                      "mai multe despre serviciile si activitatea noastra, nu ezita sa ne contactezi.<br/>",
+                      "Abordarea directa si prietenoasa cu care <br/>",
+                      "intampinam fiecare client este o calitate reprezentativa pentru noi.<br/>",
+                      "Trimite-ne un e-mail, iar noi vom lua legatura cu <br/>",
+                      "tine pentru a stabili o intalnire in care sa discutam cerintele proiectului tau."]
+        },
+        "contact-form" : {
+            "placeholder-name" : "Nume",
+            "placeholder-email" : "Email",
+            "placeholder-message" : "Mesajul tau...",
+            "btn-submit" : "TRIMITE"
+        }
+    }
+}

@@ -16,6 +16,7 @@
     <script src="public/js/jQuery-1.12.1.js" type="text/javascript"></script>
     <script src="public/js/common-functions.js" type="text/javascript"></script>
     <script src="public/js/main.js" type="text/javascript"></script>
+    <script src="public/js/language-select.js" type="text/javascript"></script>
 </head>
 
 
@@ -28,6 +29,10 @@
         </p>
     </noscript>
 
+    <div id="translating-page-loading" class="hidden">
+        <!-- Not working yet !!!  -->
+        Translating the page...
+    </div>
 
 
     <header>
@@ -47,6 +52,21 @@
                     <li class="last"><a href="#contact-info-container" id="contact-button">Contact</a></li>
                 </ul>
             </nav>
+        </div>
+
+        <div id="language-select" title="Language select">
+            <div id="language-flag">
+                <div id="language-flag-gray-filter">
+                </div>
+            </div>
+            <div id="all-languages">
+                <div class="language-english" title="English" value="english">
+                </div>
+                <div class="language-romanian" title="Romanian" value="romanian">
+                </div>
+                <div class="language-german" title="German" value="german">
+                </div>
+            </div>
         </div>
     </header>
 
@@ -236,19 +256,20 @@
 
 
     <footer>
+        <div id="contact-wrapper">
         <div id="contact-info-container">
             <div id="contact-info-title">
-                Ti-ar placea sa discutam?<br/>
-                Contacteaza-ne.
+                Want to talk with us?<br/>
+                Contact us.
             </div>
 
             <div id="contact-info-text">
-                Daca ai un proiect in vedere sau vrei sa afli <br/>
-                mai multe despre serviciile si activitatea noastra, nu ezita sa ne contactezi.<br/>
-                Abordarea directa si prietenoasa cu care <br/>
-                intampinam fiecare client este o calitate reprezentativa pentru noi.<br/>
-                Trimite-ne un e-mail, iar noi vom lua legatura cu <br/>
-                tine pentru a stabili o intalnire in care sa discutam cerintele proiectului tau.
+                If you have a project in mind or you want to find out <br/>
+                more about our services and our activity, don't hesitate to contact us.<br/>
+                The direct and friendly approach with which <br/>
+                we welcome each client is a representative quality for us.<br/>
+                Send us an e-mail and we will get in touch with you <br/>
+                in order to set a meeting in which to talk about your project requirements.
             </div>
 
             <div id="contact-info-icons">
@@ -284,9 +305,10 @@
                     <textarea placeholder="Message..." rows="9"></textarea><br/>
                     <div class="contact-form-icon" id="contact-form-message-icon"></div>
                 </diV>
-                <input type="submit" value="SUBMIT">
+                <input id="contact-form-btn-submit" type="submit" value="SUBMIT">
             </form>
         </div>
+    </div>
 
 
         <div id="copyright-container">

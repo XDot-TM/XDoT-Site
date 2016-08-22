@@ -1,0 +1,51 @@
+{
+    "header" : {
+        "Home" : "Home",
+        "About Us" : "About Us",
+        "Portofolio" : "Portofolio",
+        "Contact" : "Contact"
+    },
+    "middle" : {
+        "services" : {
+            "Branding" : {
+                "title" : "enBranding",
+                "text" : ["[EN]Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>",
+                          "Morbi suscipit quis mi sit amet sollicitudin.</br>",
+                          "Proin consequat venenatis dolor, at tempor diam."]
+            },
+            "Webdesign" : {
+                "title" : "enWebdesign",
+                "text" : ["[EN] Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>",
+                          "Morbi suscipit quis mi sit amet sollicitudin.</br>",
+                          "Proin consequat venenatis dolor, at tempor diam."]
+            },
+            "Marketing" : {
+                "title" : "enMarketing",
+                "text" : ["[EN]  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>",
+                          "Morbi suscipit quis mi sit amet sollicitudin.</br>",
+                          "Proin consequat venenatis dolor, at tempor diam."]
+            }
+        },
+        "team" : {
+            "title" : "Who are we?"
+        }
+    },
+    "footer" : {
+        "contact-info" : {
+            "title" : ["Want to talk with us?<br/>",
+                       "Contact us."],
+            "text" : ["If you have a project in mind or you want to find out <br/>",
+                      "more about our services and our activity, don't hesitate to contact us.<br/>",
+                      "The direct and friendly approach with which <br/>",
+                      "we welcome each client is a representative quality for us.<br/>",
+                      "Send us an e-mail and we will get in touch with you <br/>",
+                      "in order to set a meeting in which to talk about your project requirements."]
+        },
+        "contact-form" : {
+            "placeholder-name" : "Name",
+            "placeholder-email" : "Email",
+            "placeholder-message" : "Message...",
+            "btn-submit" : "SUBMIT"
+        }
+    }
+}

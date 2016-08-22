@@ -1,0 +1,51 @@
+{
+    "header" : {
+        "Home" : "germanHome",
+        "About Us" : "germanAboutUs",
+        "Portofolio" : "germanPortofolio",
+        "Contact" : "germanContact"
+    },
+    "middle" : {
+        "services" : {
+            "Branding" : {
+                "title" : "deBranding",
+                "text" : ["[DE]Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>",
+                          "Morbi suscipit quis mi sit amet sollicitudin.</br>",
+                          "Proin consequat venenatis dolor, at tempor diam."]
+            },
+            "Webdesign" : {
+                "title" : "deWebdesign",
+                "text" : ["[DE]Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>",
+                          "Morbi suscipit quis mi sit amet sollicitudin.</br>",
+                          "Proin consequat venenatis dolor, at tempor diam."]
+            },
+            "Marketing" : {
+                "title" : "deMarketing",
+                "text" : ["[DE]Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>",
+                          "Morbi suscipit quis mi sit amet sollicitudin.</br>",
+                          "Proin consequat venenatis dolor, at tempor diam."]
+            }
+        },
+        "team" : {
+            "title" : "deWho are we?"
+        }
+    },
+    "footer" : {
+        "contact-info" : {
+            "title" : ["[DE]Ti-ar placea sa discutam?<br/>",
+                       "Contacteaza-ne."],
+            "text" : ["[DE]Daca ai un proiect in vedere sau vrei sa afli <br/>",
+                      "mai multe despre serviciile si activitatea noastra, nu ezita sa ne contactezi.<br/>",
+                      "Abordarea directa si prietenoasa cu care <br/>",
+                      "intampinam fiecare client este o calitate reprezentativa pentru noi.<br/>",
+                      "Trimite-ne un e-mail, iar noi vom lua legatura cu <br/>",
+                      "tine pentru a stabili o intalnire in care sa discutam cerintele proiectului tau."]
+        },
+        "contact-form" : {
+            "placeholder-name" : "[DE]Name",
+            "placeholder-email" : "[DE]Email",
+            "placeholder-message" : "[DE]Message...",
+            "btn-submit" : "[DE]SUBMIT"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+Todo:
+
+Slider with images (carousel)
+
+optimize all images
+
+de pus diacritice in text (in fisierul romanian.json)
+
+de schimbat textul peste tot (in toate limbile)
+
+
+
+
+
+
+
+Done:
+
+fix the footer contact info and contact form when window less than 2000px
+
+fix portofolio images -> fix aspect 2000px
+
+Fix security issue! in translation files (eg. german.json) we can write javascript code that will
+be inserted in the page
