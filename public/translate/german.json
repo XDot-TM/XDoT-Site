@@ -1,9 +1,9 @@
 {
     "header" : {
-        "Home" : "germanHome",
-        "About Us" : "germanAboutUs",
-        "Portofolio" : "germanPortofolio",
-        "Contact" : "germanContact"
+        "Home" : "geHome",
+        "About Us" : "geAboutUs",
+        "Portofolio" : "gePortofolio",
+        "Contact" : "geContact"
     },
     "middle" : {
         "services" : {

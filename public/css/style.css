@@ -136,6 +136,8 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  max-width: 1900px;
+  margin: 0 auto;
 }
 .background-centered-no-repeat {
   background-repeat: no-repeat;
@@ -191,66 +193,56 @@ header #nav-container nav ul li.active a {
   color: #505050;
 }
 header #language-select {
+  padding: 15px 40px;
   position: absolute;
-  cursor: pointer;
-  right: 25px;
-  top: 25px;
-  border: 2px solid #d4d5d6;
+  top: 0;
+  right: 0;
 }
 header #language-select .language {
-  width: 60px;
-  height: 40px;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;
 }
 header #language-select .language-english {
   background-image: url("../../public/images/language_english_flag.png");
-  width: 60px;
-  height: 40px;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;
 }
 header #language-select .language-romanian {
   background-image: url("../../public/images/language_romanian_flag.png");
-  width: 60px;
-  height: 40px;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;
 }
 header #language-select .language-german {
   background-image: url("../../public/images/language_german_flag.png");
-  width: 60px;
-  height: 40px;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;
-}
-header #language-select #language-flag {
-  padding: 3px;
-  background-image: url("../../public/images/language_english_flag.png");
-  width: 60px;
-  height: 40px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-header #language-select #language-flag #language-flag-gray-filter {
-  display: none;
-  background-color: #21560f;
-  width: 100%;
-  height: 100%;
-  opacity: 0.7;
-}
-header #language-select #all-languages {
-  display: none;
 }
 header #language-select #all-languages > div {
-  padding: 3px;
+  padding: 0;
+  border: 4px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  margin: 0 5px;
 }
 header #language-select #all-languages > div:hover {
-  padding: 0;
-  border: 3px solid #d4d5d6;
+  border-color: #d4d5d6;
 }
 #middle {
-  width: 1360px;
   margin: 50px auto;
 }
 #middle #services-container .service {
@@ -367,61 +359,101 @@ header #language-select #all-languages > div:hover {
 #middle #team-container #team-members #team-member-coroiu #team-member-coroiu-icon {
   background-image: url("../../public/images/avatar_coroiu.png");
 }
+#middle #portofolio-container {
+  max-height: 1500px;
+  margin: 0 auto;
+}
 #middle #portofolio-container .filter-white {
   background-color: white;
   opacity: 0.5;
 }
 #middle #portofolio-container .project-cover {
   display: inline-block;
+  margin: 0;
+  padding: 0;
   background-repeat: no-repeat;
-  background-position: center;
+}
+#middle #portofolio-container .project-cover-left {
+  width: 60%;
+  float: left;
+  background-position: right;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+}
+#middle #portofolio-container .project-cover-right {
+  width: 40%;
+  float: right;
+  background-position: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
 }
 #middle #portofolio-container #project1 {
-  width: 800px;
-  height: 490px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 60%;
   float: left;
-  background-image: url("../../public/images/portofolio/project1_cover.jpg");
-  background-size: 800px 490px;
+  background-image: url('../../public/images/portofolio/project1_cover.jpg');
+  background-position: right;
 }
 #middle #portofolio-container #project2 {
-  width: 560px;
-  height: 240px;
-  float: left;
-  background-image: url("../../public/images/portofolio/project2_cover.jpg");
-  background-size: 560px 240px;
+  background-image: url('../../public/images/portofolio/project2_cover.jpg');
+  width: 40%;
+  float: right;
+  background-position: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
 }
 #middle #portofolio-container #project3 {
-  width: 560px;
-  height: 500px;
+  background-image: url('../../public/images/portofolio/project3_cover.jpg');
+  width: 40%;
   float: right;
-  background-image: url("../../public/images/portofolio/project3_cover.jpg");
-  background-size: 560px 500px;
+  background-position: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
 }
 #middle #portofolio-container #project4 {
-  width: 800px;
-  height: 250px;
+  background-image: url('../../public/images/portofolio/project4_cover.jpg');
+  width: 60%;
   float: left;
-  background-image: url("../../public/images/portofolio/project4_cover.jpg");
-  background-size: 800px 250px;
+  background-position: right;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
 }
 #middle #portofolio-container #project5 {
-  width: 800px;
-  height: 500px;
+  background-image: url('../../public/images/portofolio/project5_cover.jpg');
+  width: 60%;
   float: left;
-  background-image: url("../../public/images/portofolio/project5_cover.jpg");
-  background-size: 800px 500px;
+  background-position: right;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
 }
 #middle #portofolio-container #project6 {
-  width: 560px;
-  height: 500px;
-  float: left;
-  background-image: url("../../public/images/portofolio/project6_cover.jpg");
-  background-size: 560px 500px;
+  background-image: url('../../public/images/portofolio/project6_cover.jpg');
+  width: 40%;
+  float: right;
+  background-position: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
 }
 footer {
   background-image: url("../../public/images/footer_background.png");
   background-size: 2000px 600px;
-  width: 1360px;
+  width: 100%;
   display: inline-block;
   background-repeat: no-repeat;
   background-position: center;

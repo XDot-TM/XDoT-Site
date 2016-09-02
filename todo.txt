@@ -4,6 +4,14 @@ Slider with images (carousel)
 
 optimize all images
 
+compress data (gzip)
+
+responsive (portofolio)
+
+mobile version
+
+project inner workings
+
 de pus diacritice in text (in fisierul romanian.json)
 
 de schimbat textul peste tot (in toate limbile)

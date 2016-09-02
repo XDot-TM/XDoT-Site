@@ -1,0 +1,64 @@
+
+
+
+1. 
+Spritesheet#1 with all these:
+
+25px x 25px:
+icon_contact_name.png
+icon_contact_email.png
+icon_contact_message.png
+
+
+50px x 50px:
+icon_contact_pinterest.png
+icon_contact_facebook.png
+icon_contact_youtube.png
+icon_contact_google.png
+
+
+25px x 25px:
+icon_facebook.png
+icon_twitter.png
+icon_linkedin.png
+
+
+60px x 40px:
+language_english_flag.png
+language_romanian_flag.png
+language_german_flag.png
+
+
+
+
+2.
+Spritesheet#2 with all these:
+
+150px x 150px:
+avatar_grozescu.png
+avatar_rotar.png
+avatar_georgevici.png
+avatar_ursulet.png
+avatar_coroiu.png
+
+
+110px x 110px:
+icon_branding.png
+icon_webdesign.png
+icon_marketing.png
+
+
+
+3.
+Icon with xdot logo (16px x 16px  and  58px x 58px)
+(asta e iconita care apare sus in tabul de la browser)
+
+
+
+
+
+
+
+
+
+

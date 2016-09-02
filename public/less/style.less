@@ -9,6 +9,8 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    max-width: 1900px;
+    margin: 0 auto;
 }
 
 .background-centered-no-repeat {
@@ -88,19 +90,19 @@ header {
     }
 
     #language-select {
-        @language-select-border-color: #d4d5d6;
-        @all-languages-border-size: 3px;
+        // background-color: grey;
+        padding: 15px 40px;
         position: absolute;
-        cursor: pointer;
-        right: 25px;
-        top: 25px;
-        border: 2px solid @language-select-border-color;
+        top: 0;
+        right: 0;
 
         .language {
-            @language-width: 60px;
-            @language-height: 40px;
+            @language-width: 18px;
+            @language-height: 18px;
             width: @language-width;
             height: @language-height;
+            display: inline-block;
+            cursor: pointer;
             .background-centered-no-repeat;
         }
 
@@ -119,31 +121,19 @@ header {
             .language
         }
 
-        #language-flag {
-            padding: @all-languages-border-size;
-            .language-english;
-
-            #language-flag-gray-filter {
-                @language-flag-gray-filter-color: #21560f;
-                display: none;
-                background-color: @language-flag-gray-filter-color;
-                width: 100%;
-                height: 100%;
-                opacity: 0.7;
-            }
-        }
-
         #all-languages {
-            display: none;
+            @all-languages-border-size: 4px;
+            @all-languages-border-hover-color: #d4d5d6;
 
             & > div {
-                padding: @all-languages-border-size;
+                padding: 0;
+                border: @all-languages-border-size solid rgba(0,0,0,0);
+                border-radius: 50%;
+                margin: 0 5px;
             }
 
             & > div:hover {
-                @all-languages-border-hover-color: #d4d5d6;
-                padding: 0;
-                border: @all-languages-border-size solid @all-languages-border-hover-color;
+                border-color: @all-languages-border-hover-color;
             }
         }
 
@@ -153,7 +143,7 @@ header {
 }
 
 #middle {
-    width: @width-desktop-size;
+    // width: @width-desktop-size;
     margin: 50px auto;
 
     #services-container {
@@ -342,6 +332,8 @@ header {
 
     #portofolio-container {
         // background-color: blue;
+        max-height: 1500px;
+        margin: 0 auto;
 
         .filter-white {
             background-color: white;
@@ -350,68 +342,61 @@ header {
 
         .project-cover {
             display: inline-block;
-            .background-centered-no-repeat;
+            margin: 0;
+            padding: 0;
+            background-repeat: no-repeat;
+        }
+
+        .project-cover-left {
+            width: 60%;
+            float: left;
+            background-position: right;
+            .project-cover;
+        }
+
+        .project-cover-right {
+            width: 40%;
+            float: right;
+            background-position: left;
+            .project-cover;
         }
 
         #project1 {
-            @project1-cover-width: 800px;
-            @project1-cover-height: 490px;
-            width: @project1-cover-width;
-            height: @project1-cover-height;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            width: 60%;
             float: left;
-            background-image: url("../../public/images/portofolio/project1_cover.jpg");
-            background-size: @project1-cover-width @project1-cover-height;
+            background-image: url('../../public/images/portofolio/project1_cover.jpg');
+            // .project-cover-left;
+            background-position: right;
         }
 
         #project2 {
-            @project2-cover-width: 560px;
-            @project2-cover-height: 240px;
-            width: @project2-cover-width;
-            height: @project2-cover-height;
-            float: left;
-            background-image: url("../../public/images/portofolio/project2_cover.jpg");
-            background-size: @project2-cover-width @project2-cover-height;
+            background-image: url('../../public/images/portofolio/project2_cover.jpg');
+            .project-cover-right;
         }
 
         #project3 {
-            @project3-cover-width: 560px;
-            @project3-cover-height: 500px;
-            width: @project3-cover-width;
-            height: @project3-cover-height;
-            float: right;
-            background-image: url("../../public/images/portofolio/project3_cover.jpg");
-            background-size: @project3-cover-width @project3-cover-height;
+            background-image: url('../../public/images/portofolio/project3_cover.jpg');
+            .project-cover-right;
         }
 
         #project4 {
-            @project4-cover-width: 800px;
-            @project4-cover-height: 250px;
-            width: @project4-cover-width;
-            height: @project4-cover-height;
-            float: left;
-            background-image: url("../../public/images/portofolio/project4_cover.jpg");
-            background-size: @project4-cover-width @project4-cover-height;
+            background-image: url('../../public/images/portofolio/project4_cover.jpg');
+            .project-cover-left;
         }
 
         #project5 {
-            @project5-cover-width: 800px;
-            @project5-cover-height: 500px;
-            width: @project5-cover-width;
-            height: @project5-cover-height;
-            float: left;
-            background-image: url("../../public/images/portofolio/project5_cover.jpg");
-            background-size: @project5-cover-width @project5-cover-height;
+            background-image: url('../../public/images/portofolio/project5_cover.jpg');
+            .project-cover-left;
         }
 
         #project6 {
-            @project6-cover-width: 560px;
-            @project6-cover-height: 500px;
-            width: @project6-cover-width;
-            height: @project6-cover-height;
-            float: left;
-            background-image: url("../../public/images/portofolio/project6_cover.jpg");
-            background-size: @project6-cover-width @project6-cover-height;
+            background-image: url('../../public/images/portofolio/project6_cover.jpg');
+            .project-cover-right;
         }
+
     }
 
 }
@@ -420,7 +405,7 @@ footer {
     // background-color: #b2d235;
     background-image: url("../../public/images/footer_background.png");
     background-size: 2000px 600px;
-    width: @width-desktop-size;
+    width: 100%;
     display: inline-block;
     .background-centered-no-repeat;
 
