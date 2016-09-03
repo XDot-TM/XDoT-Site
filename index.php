@@ -20,6 +20,7 @@
     <link rel="apple-touch-icon" href="public/images/apple.png">                        <!-- 58px x 58px -->
 
     <script src="public/js/jQuery-1.12.1.js" type="text/javascript"></script>
+    <script src="config.js" type="text/javascript" ></script>
     <script src="public/js/common-functions.js" type="text/javascript"></script>
     <script src="public/js/main.js" type="text/javascript"></script>
     <script src="public/js/language-select.js" type="text/javascript"></script>
