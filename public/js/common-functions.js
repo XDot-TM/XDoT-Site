@@ -87,3 +87,11 @@ function sanitize_data(data) {
                         });
     return sanitized_data.replace(/\$BREAK#/g, "<br/>");
 }
+
+
+
+function clear_contact_form_data() {
+        $("#contact-form-name input").val('');
+        $("#contact-form-email input").val('');
+        $("#contact-form-message textarea").val('');
+}
