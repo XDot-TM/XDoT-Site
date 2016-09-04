@@ -98,3 +98,21 @@ function clear_contact_form_data() {
         $("#contact-form-email input").val('');
         $("#contact-form-message textarea").val('');
 }
+
+
+
+function startCarouselAutoplay() {
+        var currentItem = 0;
+        var items = $('.carousel-open');
+
+        var t = setInterval(function() {
+                currentItem++;
+                items.prop('checked', false);
+                $("#carousel-" + currentItem).prop('checked', true);
+                $("#carousel-" + currentItem).attr('checked', 'checked');
+
+                if (currentItem === items.length) {
+                        currentItem = 0;
+                }
+        }, 5000);
+}

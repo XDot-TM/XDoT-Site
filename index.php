@@ -43,7 +43,62 @@
 
 
     <header>
-        <div id="language-select">
+        <div class="carousel">
+            <div class="carousel-inner">
+                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                <div class="carousel-item" id="carousel-1-item">
+                        <img src="public/images/slider1photo.jpg">
+                        <div class="carousel-item-caption">
+                            <h1>X<span>DoT</span>Awesome US!</h1>
+                            <p>TO CONTACT US</p>
+                            <a data-scroll class="btn btn-start" href="#contact">PRESS HERE</a>
+                        </div>
+                </div>
+
+                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item" id="carousel-2-item">
+                    <img src="public/images/slider2photo.jpg">
+                    <div class="carousel-item-caption">
+                        <h1 class="animated fadeInLeftBig">We can make what </h1>
+                        <p class="animated fadeInRightBig">you want</p>
+                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#blog">Press here</a>
+                    </div>
+                </div>
+
+                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item" id="carousel-3-item">
+                    <img src="public/images/slider3photo.jpg">
+                    <div class="carousel-item-caption">
+                        <h1 class="animated fadeInLeftBig">Do you want to work with us</span></h1>
+                        <p class="animated fadeInRightBig">Send us an e-mail <br> and you will be contacted by our Hamster </p>
+                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Press here</a>
+                    </div>
+                </div>
+
+                <label for="carousel-3" class="carousel-control prev control-1" data-slide="prev">‹</label>
+                <label for="carousel-2" class="carousel-control next control-1" data-slide="next">›</label>
+                <label for="carousel-1" class="carousel-control prev control-2" data-slide="prev">‹</label>
+                <label for="carousel-3" class="carousel-control next control-2" data-slide="next">›</label>
+                <label for="carousel-2" class="carousel-control prev control-3" data-slide="prev">‹</label>
+                <label for="carousel-1" class="carousel-control next control-3" data-slide="next">›</label>
+
+                <ol class="carousel-indicators">
+                    <li>
+                        <label for="carousel-1" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-2" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-3" class="carousel-bullet">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+
+
+        <!-- <div id="language-select">
             <div id="all-languages">
                 <div class="language-english" title="English" value="english">
                 </div>
@@ -52,17 +107,17 @@
                 <div class="language-german" title="German" value="german">
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
-        <div id="logo-container">
+        <!-- <div id="logo-container">
             <div id="logo">
                 <img src="public/images/logo.png">
             </div>
-        </div>
+        </div> -->
 
 
-        <div id="nav-container">
+        <!-- <div id="nav-container">
             <nav>
                 <ul>
                     <li class="active first"><a href="#home" id="home-button">Home</a></li>
@@ -71,7 +126,7 @@
                     <li class="last"><a href="#contact-info-container" id="contact-button">Contact</a></li>
                 </ul>
             </nav>
-        </div>
+        </div> -->
 
     </header>
 

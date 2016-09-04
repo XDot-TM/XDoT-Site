@@ -3,6 +3,7 @@
     $(document).ready(function() {
 
         translatePage();
+        // startCarouselAutoplay();
 
         $("#contact-form").submit(function() {
                 var data_to_send = {
