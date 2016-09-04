@@ -116,3 +116,11 @@ function startCarouselAutoplay() {
                 }
         }, 5000);
 }
+
+
+
+function scrollToID(id){
+        $('html,body').animate({
+                scrollTop: $("#" + id).offset().top
+        },'slow');
+}

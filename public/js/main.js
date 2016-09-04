@@ -3,7 +3,7 @@
     $(document).ready(function() {
 
         translatePage();
-        // startCarouselAutoplay();
+        startCarouselAutoplay();
 
         $("#contact-form").submit(function() {
                 var data_to_send = {

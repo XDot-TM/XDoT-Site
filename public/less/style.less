@@ -36,108 +36,141 @@ body {
 
 
 header {
-    @header-width: 2000px;
     @header-height: 700px;
     @box-shadow-color: grey;
     position: relative;
     height: @header-height;
-    // background-image: url("../../public/images/header.png");
-    background-size: @header-width @header-height;
     border-bottom: 6px solid @main-xdot-green;
     box-shadow: 0 5px 10px @box-shadow-color;
     .background-centered-no-repeat;
 
-    #logo-container {
-        // background-color: #868688;
-        padding-top: 20px;
-    }
+    #carousel-overlay {
+        // background-color: green;
+        // height: 800px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
 
-    #nav-container {
-        // background-color: #868996;
+        #logo-container {
+            // background-color: #868688;
+            padding-top: 20px;
+        }
 
-        nav {
-            font-size: @font-size-bigger;
+        #nav-container {
+            // background-color: #868996;
 
-            ul {
-                margin: 0;
+            nav {
+                font-size: @font-size-bigger;
 
-                li {
-                    display: inline-block;
-                    padding: 0 10px;
+                ul {
+                    margin: 0;
 
-                    a {
-                        @nav-link-color: #797979;
-                        padding: 10px 0;
-                        text-decoration: none !important;
-                        line-height: 40px;
-                        color: @nav-link-color;
+                    li {
+                        display: inline-block;
+                        padding: 0 10px;
+
+                        a {
+                            @nav-link-color: #797979;
+                            // @nav-link-color: white;
+                            padding: 10px 0;
+                            text-decoration: none !important;
+                            line-height: 40px;
+                            color: @nav-link-color;
+                        }
+
                     }
 
                 }
 
+                a:hover{
+                    // @nav-link-color-hover: #ccc;
+                    @nav-link-color-hover: #505050;
+                    border-bottom: 3px solid @main-xdot-green;
+                    color: @nav-link-color-hover;
+                }
+
+                a:active,
+                ul li.active a {
+                    @nav-link-color-active: #505050;
+                    // @nav-link-color-active: #444;
+                    border-bottom: 3px solid @main-xdot-green;
+                    color: @nav-link-color-active;
+                }
+
             }
 
-            a:hover,
-            a:active,
-            ul li.active a {
-                @nav-link-color-active: #505050;
-                border-bottom: 3px solid @main-xdot-green;
-                color: @nav-link-color-active;
+        }
+
+        #language-select {
+            // background-color: grey;
+            padding: 15px 40px;
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            .language {
+                @language-width: 18px;
+                @language-height: 18px;
+                width: @language-width;
+                height: @language-height;
+                display: inline-block;
+                cursor: pointer;
+                .background-centered-no-repeat;
+            }
+
+            .language-english {
+                background-image: url("../../public/images/language_english_flag.png");
+                .language
+            }
+
+            .language-romanian {
+                background-image: url("../../public/images/language_romanian_flag.png");
+                .language
+            }
+
+            .language-german {
+                background-image: url("../../public/images/language_german_flag.png");
+                .language
+            }
+
+            #all-languages {
+                @all-languages-border-size: 3px;
+                @all-languages-border-hover-color: #d4d5d6;
+
+                & > div {
+                    padding: 0;
+                    border: @all-languages-border-size solid rgba(0,0,0,0);
+                    border-radius: 50%;
+                    margin: 0 5px;
+                }
+
+                & > div:hover {
+                    border-color: @all-languages-border-hover-color;
+                }
             }
 
         }
 
     }
 
-    #language-select {
-        // background-color: grey;
-        padding: 15px 40px;
+    #sub-title {
+        // background-color: red;
+        color: #585855;
         position: absolute;
-        top: 0;
+        margin: 0 auto;
+        left: 0;
         right: 0;
+        width: 300px;
+        bottom: 40px;
 
-        .language {
-            @language-width: 18px;
-            @language-height: 18px;
-            width: @language-width;
-            height: @language-height;
-            display: inline-block;
-            cursor: pointer;
-            .background-centered-no-repeat;
+        #sub-title-underline {
+            height: 10px;
+            width: 10%;
+            margin: 0 auto;
+            border-bottom: 2px solid @main-xdot-green;
         }
-
-        .language-english {
-            background-image: url("../../public/images/language_english_flag.png");
-            .language
-        }
-
-        .language-romanian {
-            background-image: url("../../public/images/language_romanian_flag.png");
-            .language
-        }
-
-        .language-german {
-            background-image: url("../../public/images/language_german_flag.png");
-            .language
-        }
-
-        #all-languages {
-            @all-languages-border-size: 4px;
-            @all-languages-border-hover-color: #d4d5d6;
-
-            & > div {
-                padding: 0;
-                border: @all-languages-border-size solid rgba(0,0,0,0);
-                border-radius: 50%;
-                margin: 0 5px;
-            }
-
-            & > div:hover {
-                border-color: @all-languages-border-hover-color;
-            }
-        }
-
-
     }
 
 }
