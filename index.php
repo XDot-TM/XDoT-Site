@@ -153,7 +153,11 @@
                 </div>
             </div>
 
+
+            <div id="header-middle-separator">
+            </div>
         </header>
+
 
 
 
